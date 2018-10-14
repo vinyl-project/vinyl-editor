@@ -17,8 +17,8 @@ let mainConfig = {
   ],
   module: {
     rules: [
-/*
       {
+/*
         test: /\.(js)$/,
         enforce: 'pre',
         exclude: /node_modules/,
