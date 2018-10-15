@@ -53,7 +53,7 @@ export default {
                     label:'深色'
                 },
             ],
-            theme:'hc-black',
+            theme:'vs-dark',
             codesCopy:null,//内容备份
         }
     },
@@ -77,7 +77,9 @@ export default {
             });
             //编辑器随窗口自适应
             window.addEventListener('resize',function(){
-                initEditor();
+                if (self.monacoEditor) {
+                    self.monacoEditor.layout();
+                }
             })
         },
         RunResult(){
