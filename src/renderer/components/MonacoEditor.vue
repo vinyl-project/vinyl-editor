@@ -1,5 +1,5 @@
 <template>
-    <div id="container" ref="container" style="height:500px; width:500px"></div>
+    <div id="container" ref="container" style="width:100%;height:100%"></div>
 </template>
 
 
@@ -16,7 +16,7 @@ export default {
         language:{
             type:String,
             default:function(){
-                return 'html'
+                return 'python'
             }
         },
         editorOptions:{
