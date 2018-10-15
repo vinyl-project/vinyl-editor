@@ -61,8 +61,8 @@
 
 
 <script>
-  import MonacoEditor from './MonacoEditor';
-  export default {
+  import MonacoEditor from './MonacoEditor'
+export default {
     data: () => ({
       drawer: true
     }),
